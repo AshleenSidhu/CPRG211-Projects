@@ -170,7 +170,7 @@ namespace ModernAppliances
         public void Save()
         {
             Console.Write("Saving... ");
-
+            
             StreamWriter fileStream = File.CreateText(APPLIANCES_TEXT_FILE);
 
             foreach (var appliance in appliances)
